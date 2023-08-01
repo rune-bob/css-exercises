@@ -1,4 +1,4 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
 }
@@ -22,4 +22,28 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  padding: 1em;
+  align-items: center; /* Vertically center the inner flex container */
+  height: 10vh; /* Set the height of the outer container to the viewport height */
+  justify-content: space-between;
+}
+.logo {
+  margin: 0 auto;
+}
+.left-links {
+  display: flex;
+  padding: 1em;
+}
+
+ul {
+  display: flex;
+}
+
+.right-links {
+  display: flex;
+  padding: 1em;
 }
